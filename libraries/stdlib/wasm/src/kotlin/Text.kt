@@ -431,6 +431,7 @@ actual fun String.compareTo(other: String, ignoreCase: Boolean): Int = TODO("Was
  *
  * @sample samples.text.Strings.contentEquals
  */
+@SinceKotlin("1.5")
 public actual infix fun CharSequence?.contentEquals(other: CharSequence?): Boolean = TODO("Wasm stdlib: Text")
 
 /**
@@ -440,6 +441,7 @@ public actual infix fun CharSequence?.contentEquals(other: CharSequence?): Boole
  *
  * @sample samples.text.Strings.contentEquals
  */
+@SinceKotlin("1.5")
 public actual fun CharSequence?.contentEquals(other: CharSequence?, ignoreCase: Boolean): Boolean = TODO("Wasm stdlib: Text")
 
 
